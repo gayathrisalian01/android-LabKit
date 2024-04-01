@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+
+    tools:context=".masterApp"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:text="MASTER APP"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Toast"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn1"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Life Cycle"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn2"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Sum (Linear)"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn3"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Sum (Constraint)"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn4"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Sum (Relative)"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn5"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Form"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn6"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="622dp" />
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn7"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="622dp" />
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Form (Toggle)"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn8"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="622dp" />
+    <Button
+        android:id="@+id/btn10"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Form (New Activity)"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn9"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="622dp" />
+    <Button
+        android:id="@+id/btn11"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Custom Toast"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn10"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="622dp" />
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btn11"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="622dp" />
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Controls"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btn12"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="622dp" />
+        <Button
+            android:id="@+id/btn14"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Image Gallery"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btn13"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="899dp"/>
+
+</RelativeLayout>
+</RelativeLayout>
